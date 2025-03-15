@@ -1,5 +1,10 @@
+:root{
+    --nav-color: darkblue;
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-color);
     padding: 10px}
 
 nav a {
