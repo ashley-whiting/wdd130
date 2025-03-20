@@ -17,6 +17,28 @@ p {
     font-style: normal;
   }
 
+  a{ text-decoration: none;}
+
   footer img {
     max-height: 200px;
+  }
+
+  .hero{ position: relative;}
+
+  .hero image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h1{
+    position:absolute;
+  }
+
+  article{ 
+    position: absolute;
+  }
+
+  article image{
+    float: right;
   }
