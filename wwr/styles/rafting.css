@@ -1,6 +1,6 @@
 
-/*<weight>: Use a value from 300 to 900
-// <uniquifier>: Use a unique and descriptive class name*/
+/*<weight>: Use a value from 300 to 900*/
+
 
 h1, h2, h3 {
     font-family: "Winky Sans", sans-serif;
@@ -36,7 +36,8 @@ p {
     position:absolute;
   }
 
-  article{ 
+  article{
+    display: block; 
     position: absolute;
     background-color: burlywood;
   }
