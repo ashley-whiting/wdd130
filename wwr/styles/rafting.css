@@ -13,7 +13,7 @@ h1, h2, h3 {
 p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
   }
 
@@ -29,6 +29,7 @@ p {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.5;
   }
 
   h1{
@@ -37,6 +38,7 @@ p {
 
   article{ 
     position: absolute;
+    background-color: burlywood;
   }
 
   article image{
