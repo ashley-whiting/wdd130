@@ -16,3 +16,7 @@ p {
     font-weight: normal;
     font-style: normal;
   }
+
+  footer img {
+    max-height: 200px;
+  }
