@@ -43,11 +43,15 @@ p {
 
   article{
     display: block; 
+    width: 75vw;
     position: absolute;
     top:30%;
     left: 10%;
-    margin: 2px;
+    margin: 1rem auto;
+    padding: 20px;
     background-color: burlywood;
+    opacity: 0.5;
+    border: 2px solid rgb(0 0 0 / .1);
   }
 
   article img{
