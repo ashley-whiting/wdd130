@@ -19,8 +19,8 @@ p {
 
   a{ text-decoration: none;}
 
-  footer img {
-    max-height: 200px;
+  footer image {
+    max-height: 100px;
   }
 
   .hero{ position: relative;}
