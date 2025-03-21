@@ -16,9 +16,9 @@ h1, h2, h3 {
 p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: normal;
     font-style: normal;
-    padding: 20px;
+    padding: 10px;
   }
 
   a{ text-decoration: none;}
@@ -33,32 +33,36 @@ max-width: 20px;
 
   .hero img{
     display: block;
-/*width: 100%;*/
+width: 100%;
     height: auto;
+    
 
   }
 
+  
   h1{
     position:absolute;
-    top: 10px;
-    background-color: aqua;
+    width: 85%;
+    background-color: turquoise;
     opacity: 0.8;
     text-align: center;
     padding: 10px;
+    margin: 2rem;
+    color: snow;
 
   }
 
   article{
     display: block; 
-    width:750px;
+    width:75%;
     position: absolute;
-    top:30%;
+    top:60%;
     left: 10%;
     margin: 1rem auto;
     padding: 20px;
     background-color: burlywood;
-    border: 2px solid rgb(0 0 0 / .1);
-    opacity: 0.9;
+    
+    opacity: 0.8;
   }
 
   article img{
