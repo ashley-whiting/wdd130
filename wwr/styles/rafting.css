@@ -23,6 +23,86 @@ p {
 
   a{ text-decoration: none;}
 
+  header {
+    margin: 1rem auto;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 100%;
+    background-color: blanchedalmond;
+  }
+  
+  nav img {
+    margin: 0 0.25rem 0 1rem;
+    width: 200px;
+    height: auto;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+  }
+  nav{
+    display: flex;    
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: Arial, sans-serif;
+  }
+  
+   .navigation a {
+    display: block;
+    color: navy;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 2rem;
+  
+  }
+  
+  .navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .history{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  }
+
+  .history img{
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .flex1, .flex2
+  {   display: flex;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+    .flex2 img{
+      width: 200px;
+      height: auto;
+      padding: 1rem;
+    }
+
+    .adventure{
+      display: flex;
+    }
+
+  /*.two {
+    background-color: #ace;
+    max-width: fit-content;
+  }*/
+
   footer img {
 max-width: 20px;
   height: auto;
@@ -39,7 +119,7 @@ max-width: 20px;
  }
 
   
-  h1{
+  .articleheader{
     position:absolute;
     width: 85%;
     background-color: turquoise;
