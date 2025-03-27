@@ -113,11 +113,6 @@ p {
       text-align: center;
   }
 
-  footer img {
-max-width: 20px;
-  height: auto;
-}
-  
 
   .hero{ position: relative;}
 
@@ -163,7 +158,27 @@ max-width: 20px;
 	box-shadow: 0 0 30px #777;
     border: 2px solid black;
   }
+footer{
+  background-color: aqua;
+  display: flex;
+  text-align: center;
+}
+  footer img {
+    max-width: 50px;
+      height: auto;
+      
+    }
+    footer p{
+      text-align: center;
+    }
+
 
   .social-links{
     text-decoration: none;
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    
   }
+
+ 
