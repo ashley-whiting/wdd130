@@ -4,7 +4,7 @@
 
 h1, h2, h3 {
     font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
+   
     font-weight: bold;
     font-style: normal;
     text-align: center;
@@ -16,7 +16,7 @@ h1, h2, h3 {
   
 p {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
+   
     font-weight: normal;
     font-style: normal;
     padding: 10px;
