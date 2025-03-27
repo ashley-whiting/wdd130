@@ -7,6 +7,7 @@ h1, h2, h3 {
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+    text-align: center;
   }
 
   /*{
@@ -21,7 +22,6 @@ p {
     padding: 10px;
   }
 
-  a{ text-decoration: none;}
 
   header {
     margin: 1rem auto;
@@ -72,15 +72,18 @@ p {
   }
 
   .history{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:antiquewhite;
+    
   
   }
 
   .history img{
     max-width: 300px;
     height: auto;
+    padding: 10px;
   }
   
   .flex1, .flex2
@@ -96,12 +99,19 @@ p {
 
     .adventure{
       display: flex;
+      justify-content: space-around;
     }
-
-  /*.two {
-    background-color: #ace;
-    max-width: fit-content;
-  }*/
+    figure {
+      display: inline-block;
+      border: 1px dotted gray;
+      margin: 5px; /* adjust as needed */
+  }
+  figure img {
+      vertical-align: top;
+  }
+  figure figcaption {
+      text-align: center;
+  }
 
   footer img {
 max-width: 20px;
@@ -152,4 +162,8 @@ max-width: 20px;
     margin: 15px;
 	box-shadow: 0 0 30px #777;
     border: 2px solid black;
+  }
+
+  .social-links{
+    text-decoration: none;
   }
