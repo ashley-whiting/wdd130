@@ -4,10 +4,9 @@
 
 h1, h2, h3 {
     font-family: "Winky Sans", sans-serif;
-   
     font-weight: bold;
     font-style: normal;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   /*{
@@ -181,4 +180,13 @@ footer{
     
   }
 
+  /*Contact Us*/
+  .grid {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    
+  }
  
