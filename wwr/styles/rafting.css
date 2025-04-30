@@ -190,3 +190,22 @@ footer{
     
   }
  
+  /*this is our section test*/
+  .first{
+    background-color: lightblue;
+  }
+
+  .first p{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  
+
+  .second{
+    text-align: center;
+  }
+
+  .third{
+    background-color: red;
+  }
